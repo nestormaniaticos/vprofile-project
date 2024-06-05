@@ -17,7 +17,7 @@ services:
     ports:
       - "11211:11211"
       
-  vprocache01:
+  rabbitmq:
     image: rabbitmq
     ports:
       - "15672:15672"
